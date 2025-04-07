@@ -3,7 +3,7 @@ import React from 'react'
 export const BasicFunctions = () => {
 
     const addNumbers = (a:number, b: number) => {
-        return a + b
+        return a + b;
     }
 
     const sum = addNumbers(5.123, 10.51)
