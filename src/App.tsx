@@ -1,6 +1,6 @@
 import './App.css'
 //import { BasicTypes, ObjectLiterals, BasicFunctions } from './typescript'
-import { Counter, CounterWithHook, LoginPage, UsersPage } from './components'
+import { Counter, CounterWithHook, FormsPage, LoginPage, UsersPage } from './components'
 
 function App() {
 
@@ -13,7 +13,8 @@ function App() {
       {/* <Counter /> */}
       {/* <CounterWithHook /> */}
       {/* <LoginPage /> */}
-      { <UsersPage /> }
+      {/* <UsersPage /> */}
+      { <FormsPage /> }
     </>
   )
 }
